@@ -1,0 +1,28 @@
+{
+  "app": {
+    "title": "Task Tracker"
+  },
+  "views": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "week": "This Week"
+  },
+  "task": {
+    "types": {
+      "sudden_bug_fix": "Bug Fix",
+      "planned_feature": "Feature",
+      "background_task": "Background"
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed"
+    }
+  },
+  "actions": {
+    "createTask": "New Task",
+    "closeTask": "Close",
+    "reopenTask": "Reopen",
+    "deleteTask": "Delete",
+    "archive": "Archive"
+  }
+}

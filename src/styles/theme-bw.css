@@ -1,0 +1,16 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --border-color: black;
+  --card-bg: white;
+  --shadow: none;
+}
+
+.task-card {
+  border: 2px solid black;
+  background: white;
+}
+
+.task-title {
+  font-weight: bold;
+}

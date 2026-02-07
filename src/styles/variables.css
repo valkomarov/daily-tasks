@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --border-color: #ddd;
+  --primary-color: #0066cc;
+  --error-color: #cc0000;
+  --success-color: #00aa00;
+}
+
+@media (forced-colors: active) {
+  :root {
+    --bg-color: white;
+    --text-color: black;
+    --border-color: black;
+    --primary-color: black;
+    --error-color: black;
+    --success-color: black;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #f5f5f5;
+    --border-color: #444;
+  }
+}

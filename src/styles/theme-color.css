@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --border-color: #ddd;
+  --card-bg: white;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+}
+
+.task-title {
+  color: var(--text-color);
+}
